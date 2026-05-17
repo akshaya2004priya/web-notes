@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex5</title>
+</head>
+<body>
+
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+    <label for="username">username:</label>
+    <input  type="text" id="username" placeholder="enter username" minlength="5" maxlength="12" required>
+    <br>
+
+    <label for="password">password:</label>
+    <input type="password" id="password" placeholder="enter password" minlength="1" maxlength="16" required><br>
+
+    <input type ="reset" value="reset">
+    <input type="submit" value="submit"><br><br>
+
+    <label for="email">email:</label>
+    <input type="email" id="email" placeholder="enter email" required><br>
+
+    <label for="phone">phone:</label>
+    <input type="tel" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+    <label for="bday" >birthday:</label>
+    <input type="date" id="bday" required><br><br>
+
+    <label type ="quantity" for="quantity">quantity:</label>
+    <input type="number" id="quantity" min="0" max="99" value="1"><br><br>
+
+    <label>title:</label>
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." name="title" value="Mr.">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." name="title" value="Ms.">
+    <label for="Mrs.">Mrs.</label>
+    <input type="radio" id="Mrs." name="title" value="Mrs.">
+    <br><br>
+
+    <label for="payment">payment method:</label>
+    <select id="payment" name="payment">
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="paypal">PayPal</option>
+    </select><br><br>
+
+    <label for="subscribe"> subscribe</label>
+    <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+    <label for="comments">comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <label for="color">choose a color:</label>
+    <input type="color" id="color"><br><br>
+
+    <label for="range">choose a number:</label>
+    <input type="range" id="range" min="0" max="10"><br><br>
+     
+    <label for="file">upload a file:</label>
+    <input type="file" id="file" accept="image/png, image/jpeg"><br><br>
+
+    <label for="url">enter a url:</label>
+    <input type="url" id="url" placeholder="https://www.google.com"><br><br>        
+
+    <label for="search">search:</label>
+    <input type="search" id="search" placeholder="search here"><br><br>
+
+    <label for="time">choose a time:</label>
+    <input type="time" id="time"><br><br>
+
+    <label for="week">choose a week:</label>
+    <input type="week" id="week"><br><br>  
+    
+    <label for="month">choose a month:</label>
+    <input type="month" id="month"><br><br>
+
+    <label for="datetime-local">choose a date and time:</label>
+    <input type="datetime-local" id="datetime-local"><br><br>
+
+    </form>
+    <br><br><br>
+
+    <header style="background-color:lightyellow;">
+        <h1>HTML Diary</h1>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a> 
+        <a href="">Blog</a>
+        <hr>
+    </header>
+    <main>
+        <h3>Dear Diary</h3>
+
+        <img src="images\favicon.png" alt="first step to web development" width="50px" height="50px">
+
+        <pre> I consider this as my first stepping stone in web development </pre>
+           
+    </main>
+    <footer style="background-color:lightyellow;">
+        author:  Akshaya <br>
+        &copy; copyright reserved <br>
+        email: akshaya@example.com
+
+    </footer>
+
+</body>
+</html>

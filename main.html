@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>HTML DIARY</title>
+</head>
+<body>
+    <h1>class 1</h1>
+    <h4>basics</h4>
+   
+    <hr>
+    <br>
+<pre>
+1) < !DOCTYPE html> // tells user that it is html5 code
+2) < html lang="en">          // it tells everything within is, html
+
+3) < head>          // contains information about the webpage
+                    // Things usually placed here:
+
+                       title
+                       meta tags
+                       favicon
+                       CSS links
+                       SEO information
+    < meta charset="UTF-8">
+    < meta http-euiv="X-UA-Compatible" content="IE=edge">
+    < meta name="viewport" content="width=device-width, initial-scale=1.0">
+    < link rel="icon" type="image/png" href="images/favicon.png">
+    < title>HTML DIARY
+   < /title>
+   < /head>         // closing head tab
+4) < body>          // body of the website
+5) < h1> hi < /h1>  //headlines (size varies)
+   < h2> hi < /h2>
+   < h3> hi < /h3>
+   < h4> hi < /h4>
+   < h5> hi < /h5>
+   
+6) < hr>           //shows a line
+7) < br>           //break line
+
+
+8) < p>           //parah
+        Lorem ipsum , sit amet consectetur adipisicing elit. 
+        Aliquid ducimus eveniet ut quae accusamus illo molestias sint natus, 
+        ea, quo dolor ipsa cum reiciendis expedita dicta officia! Illum, accusamus
+        qui.
+   < /p>          //closing parah
+9)< pre>         //defined parah
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Aliquid ducimus eveniet ut quae accusamus illo molestias sint natus, 
+        ea, quo dolor ipsa cum reiciendis expedita dicta officia! Illum, accusamus
+        qui.
+   < /pre>        //closing defined parah
+
+10)< !-- this is a comment-->
+                  //comment
+
+< /body>          //closing body
+< /html>          //closing html
+</pre>
+
+     <a href="http://127.0.0.1:5500/html%20tutorial/ex1.html"
+     target="_blank">
+example class 1
+     </a>
+<hr>
+
+<h1>class 2</h1>
+<h4>hyperlinks/images/audio/video</h4>
+
+<hr>
+<p> hyperlink</p>
+<pre>
+1) < a href="https://www.google.com/" 
+   target="_blank"                               //open in new tab
+   title="goes to google">                       //text appears when just the cursor is placed 
+   click me
+   < /a>
+<br>
+<p>mail</p>
+2)  < a href="mailto:akshaya2004priya@gmail.com">
+   email me                                      // to mail
+   < /a>
+<br>
+<p>images</p>
+3) < a href="https://en.wikipedia.org/wiki/BTS">   //website appears after clicking the photo
+    < img src="images/BTS members new photo collection.jpg"
+      alt="BTS members"
+      height="200" width="250">                 //add image
+   < /a>
+<br>
+<p>gif</p>
+4)   < img src="images/birthday-bts.gif"
+        alt="BTS cute gif"
+        height="200" width="400"                // adding gif
+
+      < img src="images/birthday-bts.gi"
+        alt="BTS cute gif"
+        height="200" width="400">              //if image is not linked correctly alternate name will be appeared
+<br>
+<p>audio</p>
+5)    < audio controls>                       // audio tag is used ,controls - used to control the audio .eg - play,pause
+            < source src="music/bts_dynamite.mp3" type="audio/mpeg"> 
+        < /audio>                             //type tells what kind it is,usually mpeg is used for audio 
+        < br>
+         < audio controls autoplay muted>     // feature - autoplay but muted
+            < source src="music/bts_dynamite.mp3" type="audio/mpeg">
+        < /audio>
+        < br>
+         < audio controls loop>              // feature to loop
+            < source src="music/bts_dynamite.mp3" type="audio/mpeg">
+        < /audio>
+<br>
+<p>video</p>
+6)     < a target="_blank" href="https://en.wikipedia.org/wiki/Life_Goes_On_(BTS_song)">
+            < video width="500px" controls autoplay muted loop>
+                < source src="videos\Life Goes On.mp4">
+            < /video>
+        < /a>
+</pre>        
+        <a href="http://127.0.0.1:5500/html%20tutorial/ex2.html" 
+        target="_blank">
+        example class 2
+        </a>
+<hr>
+
+
+<h1>class 3</h1>
+<h4>favicons/text formatting/span & div</h4>
+<hr>
+<pre>
+<p>favicons</p>
+
+link rel="icon" type="image/png" href="images/favicon.png">//this sentance is used in head tag
+
+<p>text formating</p>
+
+< p >This is a normal text< /p>
+< p >This is a < b>bold< /b> text< /p>
+< p >This is a < i>italic< /i> text< /p>
+< p >This is a < u>underlined< /u> text< /p>
+< p >This is a < del>deleted< /del> text< /p>
+< p >This is a < big>big< /big> text< /p>
+< p >This is a < small>small< /small> text< /p>
+< p >This is a < sub>subscript< /sub> text< /p>
+< p >This is a < sup>superscript< /sup> text< /p>
+< p >This is a < tt>monospaced< /tt> text< /p>
+< p >This is a < mark style="background-color:lightgreen">normal< /mark> text< /p>
+
+<p>span & div</p>
+
+< h1>< span style="background-color:blue">span< /span>< /h1>           //span is used to change the color of a particular word in a sentence
+< h1>< div style="background-color:green">div< /div>< /h1>           //div is used to change the color of a whole sentence or paragraph
+
+< p>< span style="background-color:blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quasi doloremque rem fugiat dolore. Soluta laudantium, harum earum excepturi aliquam cum doloremque, aspernatur ullam repellendus, iste nostrum quibusdam sint voluptates.< /span>< /pre>
+< p>< div style="background-color:green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quasi doloremque rem fugiat dolore. Soluta laudantium, harum earum excepturi aliquam cum doloremque, aspernatur ullam repellendus, iste nostrum quibusdam sint voluptates.< /div>< /p>
+</pre>
+ <a href="http://127.0.0.1:5500/html%20tutorial/ex3.html" 
+        target="_blank">
+        example class 3
+        </a>
+<hr>
+
+   <h1>class 4</h1>
+<h4>list/table/buttons</h4>
+<hr>
+<pre>
+<p>list</p>
+
+< ul>
+      < li>eggs< /li>
+      < li>milk< /li>
+      < ul>
+        < li>whole milk< /li>
+        < li>skim milk< /li>
+      < /ul>
+      < li>bread< /li>
+< /ul>                          //unordered list - list with bullets
+
+< ol>
+      < li>eggs< /li>
+      < li>milk< /li>
+      < ol>
+        < li>whole milk< /li>
+        < li>skim milk< /li>
+      < /ol>
+      < li>bread< /li>
+< /ol>                          //ordered list - list with numbers
+
+< dl style ="background-color:lightgreen; border:2px solid">
+      < dt>eggs< /dt>
+      < dd>rich in protein< /dd>
+      < dt>milk< /dt>
+      < dd>rich in calcium< /dd>
+      < dt>bread< /dt>
+      < dd>rich in carbohydrates< /dd>
+< /dl>                            //description list - list with terms and description
+
+
+<p>table</p>
+
+< table border="1" style="background-color:black">             //table tag is used to create table, border is used to give border to the table
+   < tr align="center" style="background-color: lightblue;">   //tr is used to create rows, align is used to align the content in the center
+      < th>Sunday< /th>
+      < th>Monday< /th>
+      < th>Tuesday< /th>
+      < th>Wednesday< /th>
+      < th>Thursday< /th>
+      < th>Friday< /th>
+      < th>Saturday< /th>                                        //th is used to create heading in the table.
+   < /tr>
+   < tr align="center" style="background-color: lightyellow;">
+      < td>closed< /td>
+      < td>9-5< /td>
+      < td>9-5< /td>
+      < td>9-5< /td>
+      < td>9-5< /td>
+      < td>9-5< /td>
+      < td>10-2< /td>                                                                                       
+< /table>
+
+<p>buttons</p>
+
+< a href="http://google.com" target="_blank">
+< button  style ="font-size:25px; background-color:grey; border-radius:7px; color:lightblue">click me< /button>
+< /a>
+
+</pre>
+ <a href="http://127.0.0.1:5500/html%20tutorial/ex4.html" 
+        target="_blank">
+        example class 4
+        </a>
+
+<hr>
+
+   <h1>class 5</h1>
+<h4>forms/headers & footers</h4>
+<hr>
+<pre>
+<p>forms</p>
+
+< form action="index.php" method="POST" enctype="multipart/form-data">                                         //form-> Creates a form where users can enter data
+                                                                                                                 action="index.php" → Tells the browser where to send the form data after clicking Submit.
+                                                                                                                                      Send all form data to index.php for processing.
+                                                                                                                 method="POST" → Specifies HOW data is sent.
+                                                                                                                 | Method | Data Visible? | Used For         |
+                                                                                                                 | ------ | ------------- | ---------------- |
+                                                                                                                 | GET    | Yes (in URL)  | Searching        |
+                                                                                                                 | POST   | No            | Passwords, forms |
+
+                                                                                                                 enctype="multipart/form-data" → Required for file uploads.
+                                                                                                                 Needed when uploading files.
+
+
+                                                                                                                  Example:
+
+                                                                                                                  < input type="file">
+
+                                                                                                                  Without this:
+
+                                                                                                                  files will NOT upload properly
+
+                                                                                                                  With this:
+
+                                                                                                                  browser sends file data correctly
+
+                                                                                                                  Why "multipart/form-data"?
+
+                                                                                                                  Normally forms send plain text.
+
+                                                                                                                  But files contain:
+
+                                                                                                                  images
+                                                                                                                  PDFs
+                                                                                                                  videos
+                                                                                                                  binary data
+
+                                                                                                                  So browser uses special format called:
+
+                                                                                                                  multipart/form-data
+
+                                                                                                                  to send both:
+
+                                                                                                                  text fields and file data together.
+
+    < label for="username">username:< /label>                                                                   //Creates a text label called username.
+                                                                                                                 for="username" connects the label to the input with id username.
+    < input  type="text" id="username" placeholder="enter username" minlength="5" maxlength="12" required>       //type="text" → Normal text input.
+                                                                                                                 id="username" → Unique identifier.
+                                                                                                                  placeholder → Gray hint text inside box.
+                                                                                                                   minlength="5" → Minimum 5 characters.
+                                                                                                                  maxlength="12" → Maximum 12 characters.
+                                                                                                                  required → User must fill this field
+    < br>
+
+    < label for="password">password:< /label>                                                                     //type="password" → Hides typed characters.
+    < input type="password" id="password" placeholder="enter password" minlength="1" maxlength="16" required><br>
+
+    < input type ="reset" value="reset">
+    < input type="submit" value="submit"><br><br>                                                                   //Sends form data to index.php.
+
+    < label for="email">email:< /label>
+    < input type="email" id="email" placeholder="enter email" required><br>
+
+    < label for="phone">phone:< /label>
+    < input type="tel" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+    < label for="bday" >birthday:< /label>
+    < input type="date" id="bday" required><br><br>
+
+    < label type ="quantity" for="quantity">quantity:< /label>
+    < input type="number" id="quantity" min="0" max="99" value="1"><br><br>
+
+    < label for="Mr.">Mr.< /label>
+    < input type="radio" id="Mr." name="title" value="Mr.">
+    < label for="Ms.">Ms.< /label>
+    < input type="radio" id="Ms." name="title" value="Ms.">
+    < label for="Mrs.">Mrs.< /label>
+    < input type="radio" id="Mrs." name="title" value="Mrs.">
+    <br><br>
+
+    < label for="payment">payment method:< /label>               
+    < select id="payment" name="payment">
+        < option value="credit">Credit Card< /option>
+        < option value="debit">Debit Card< /option>
+        < option value="paypal">PayPal< /option>
+    < /select><br><br>
+
+    < label for="subscribe"> subscribe< /label>
+    < input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+    < label for="comments">comments:< /label><br>
+    < textarea id="comments" name="comments" rows="4" cols="50">< /textarea><br><br>
+
+    < label for="color">choose a color:< /label>
+    < input type="color" id="color"><br><br>
+
+    < label for="range">choose a number:< /label>
+    < input type="range" id="range" min="0" max="10"><br><br>
+     
+    < label for="file">upload a file:< /label>
+    < input type="file" id="file" accept="image/png, image/jpeg"><br><br>
+
+    < label for="url">enter a url:< /label>
+    < input type="url" id="url" placeholder="https://www.google.com"><br><br>        
+
+    < label for="search">search:< /label>
+    < input type="search" id="search" placeholder="search here"><br><br>
+
+    < label for="time">choose a time:< /label>
+    < input type="time" id="time"><br><br>
+
+    < label for="week">choose a week:< /label>
+    < input type="week" id="week"><br><br>  
+    
+    < label for="month">choose a month:< /label>
+    < input type="month" id="month"><br><br>
+
+    < label for="datetime-local">choose a date and time:< /label>
+    < input type="datetime-local" id="datetime-local"><br><br>
+
+<p>headers & footers</p>                                          //header and footer is used to organize the content of the webpage, header usually contains the title and navigation links, footer usually contains the author name, copyright information and contact details.
+
+
+    < header style="background-color:lightyellow;">
+        < h1>HTML Diary< /h1>
+        < a href="">Home< /a>
+        < a href="">About< /a>
+        < a href="">Contact< /a> 
+        < a href="">Blog< /a>
+        < hr>
+    < /header>                                                   
+    < main>
+        < h3>Dear Diary< /h3>
+
+        < img src="images\favicon.png" alt="first step to web development" width="50px" height="50px">
+
+        < pre> I consider this as my first stepping stone in web development < /pre>
+           
+    < /main>
+    < footer style="background-color:lightyellow;">
+        author:  Akshaya < br>
+        &copy; copyright reserved < br>
+        email: akshaya@example.com
+
+    < /footer>
+
+ <a href="http://127.0.0.1:5500/html%20tutorial/ex5.html" 
+        target="_blank">
+        example class 5
+        </a>
+
+</body>
+</html>
